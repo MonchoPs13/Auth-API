@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Moncho's Authentication API",
 	"scripts": {
-		"start": "nodemon ./dist/server.js",
+		"start dev": "nodemon ./dist/server.js",
 		"upload-data": "node ./dist/dev-data/uploadData.js --upload",
 		"delete-data": "node ./dist/dev-data/uploadData.js --delete"
 	},
