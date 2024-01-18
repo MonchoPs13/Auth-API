@@ -1,0 +1,23 @@
+[
+	{
+		"email": "test@gmail.com",
+		"name": "Alonso Avila",
+		"username": "moncho",
+		"password": "test",
+		"passwordConfirm": "test"
+	},
+	{
+		"email": "test1@gmail.com",
+		"name": "Mariano Avila",
+		"username": "santu",
+		"password": "test",
+		"passwordConfirm": "test"
+	},
+	{
+		"email": "test2@gmail.com",
+		"name": "Angel Ramirez",
+		"username": "poncho",
+		"password": "test",
+		"passwordConfirm": "test"
+	}
+]

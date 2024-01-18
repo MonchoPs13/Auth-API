@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const authController_1 = require("../controllers/authController");
+const userController_1 = require("../controllers/userController");
+const router = (0, express_1.Router)();
+router.get('/', authController_1.protectRoute, userController_1.searchUser);
+router.patch('/edit', authController_1.protectRoute, userController_1.editUser);
+router.post('/profile/picture', authController_1.protectRoute, userController_1.uploadSingle, userController_1.uploadProfilePicture);
+router.get('/profile/picture', authController_1.protectRoute, userController_1.getProfilePicture);
+router.delete('/profile/picture', authController_1.protectRoute, userController_1.deleteProfilePicture);
+exports.default = router;
